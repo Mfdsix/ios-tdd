@@ -1,19 +1,12 @@
-//
-//  codemagic.yaml
-//  TriangleApp
-//
-//  Created by Mputh on 10/12/25.
-//
-
 workflows:
-  ios-project-debug: # workflow ID
-    name: iOS debug # workflow name
+  ios-project-debug:
+    name: iOS debug
     environment:
       xcode: latest
       cocoapods: default
       vars:
-          XCODE_PROJECT: "TriangleApp.xcodeproj" # Isikan nama project Anda.
-          XCODE_SCHEME: "TriangleApp" # Isikan nama scheme project Anda.
+          XCODE_PROJECT: "TriangleApp.xcodeproj"
+          XCODE_SCHEME: "TriangleApp"
     scripts:
       - name: Run tests
         script: |
