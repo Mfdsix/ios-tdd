@@ -55,8 +55,6 @@ class TriangleAppTests: XCTestCase {
       return "Segitiga Sama Kaki"
     } else if sides[1] + sides[0] <= sides[2] {
       throw TriangleError.inequalityInput
-    } else if sides[2] - sides[1] <= sides[0] {
-      throw TriangleError.inequalityInput
     } else {
       return "Segitiga Sembarang"
     }
