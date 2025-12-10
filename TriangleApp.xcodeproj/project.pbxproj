@@ -50,6 +50,7 @@
 		2A7139392533405300DC8A98 /* TriangleAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriangleAppUITests.swift; sourceTree = "<group>"; };
 		2A71393B2533405300DC8A98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C1A5F76B2EE92E4700E60159 /* codemagic.yaml */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = codemagic.yaml; sourceTree = "<group>"; };
+		C1A5F76C2EE94A8800E60159 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +81,7 @@
 		2A71390B2533404B00DC8A98 = {
 			isa = PBXGroup;
 			children = (
+				C1A5F76C2EE94A8800E60159 /* README.md */,
 				C1A5F76B2EE92E4700E60159 /* codemagic.yaml */,
 				2A7139162533404B00DC8A98 /* TriangleApp */,
 				2A71392D2533405300DC8A98 /* TriangleAppTests */,
